@@ -17,7 +17,7 @@ If you use sqlite than `DATABASE` should be `DATABASE=sqlite:///Database.db`. <b
 The other `DB` values can be left blank.
 
 
-### Postgress datagbase
+### Postgress database
 Install `docker` and `docker-compose`. <br>
 Run the containers and visit adminer on `localhost:8080` <br>
 you can loging with:<br>
