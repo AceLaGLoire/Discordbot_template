@@ -54,8 +54,8 @@ For Linux: `sudo apt install libpq-dev python3-dev` than re run dependencies.
 
 > Each each time you run the bot the database wil be emptied. This insures the creation of the objects,
  to disabled this behaviour look in `/Bot/Database/__init__.py` line `30` `Base.metadata.drop_all(engine)`.
-
-
+ 
+ > To view the `.db` file we recommend [sqlitebroser](https://sqlitebrowser.org/).
 #### Database new model
 > If you add a new model to the database. Be sure to import it in `Database/__init__.py`
 to let the `ORM` know it's there and it should be created in the databasen. 
